@@ -116,10 +116,6 @@ img {
     padding: 188px 0;
 }
 
-.hero-content {
-    text-align: center;
-}
-
 .hero-heading {
     font-size: 56px;
     line-height: 1.07;
@@ -127,6 +123,7 @@ img {
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto 48px;
+    text-align: center;
 }
 
 .hero-button {
@@ -238,15 +235,10 @@ img {
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
-.team-card {
-    padding-bottom: 32px;
-}
-
 .team-img {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-bottom: 32px;
 }
 
 .team-info {
@@ -276,14 +268,14 @@ img {
 
 /* Portfolio section */
 /* Portfolio section styles */
-.portfolio {
+.portfolio-section {
     padding: 120px 0;
+    border: 1px solid #e7e9fc;
 }
 
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .portfolio-title {
